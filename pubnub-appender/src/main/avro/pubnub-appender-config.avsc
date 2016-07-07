@@ -1,0 +1,9 @@
+{
+    "namespace": "org.kaaproject.kaa.server.appenders.pubnub.config.gen",
+    "type": "record",
+    "name": "PubNubConfig",
+    "fields": [
+            {"name": "publishKey", "displayName": "Publish Key", "maxLength": 1000, "by_default": "", "type": "string"},
+            {"name": "subscribeKey", "displayName": "Subscribe Key", "maxLength": 1000, "by_default": "", "type": "string"}
+    ]
+}
